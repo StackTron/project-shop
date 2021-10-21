@@ -1,0 +1,126 @@
+.registration {
+
+
+    .registration__output {
+        margin-top: 64px;
+        margin-bottom: 96px;
+        display: flex;
+    }
+    
+    .registration__text-overlay {
+        background-color: $fly-pink;
+        height: 148px;
+    }
+    .registration__text-label {
+        font-family: $font-lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        color: $pink;
+        padding: 59px 0 0 230px;
+    }
+    
+    fieldset {
+        border: none;
+    }
+    
+    .label-fix {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: $black;
+        padding-bottom: 20px;
+    }
+    .legend {
+        text-align: center;
+    }
+    
+    [type="email"] {
+        display: block;
+    }
+    
+    .form-name {
+        display: block;
+        width: 360px;
+        height: 45px;
+        margin-bottom: 20px;
+        padding-left: 16px;
+    }
+    
+    .textarea {
+        resize: none;
+        width: 150px;
+        height: 100px;
+    }
+    
+    .form__button {
+        width: 176px;
+        height: 50px;
+        color: $milk;
+        font-size: 14px;
+        line-height: 17px;
+        background-color: $pink;
+    } 
+    
+    .form__text {
+        width: 359px;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        color: $gray-sky;
+        padding-top: 11px;
+        padding-bottom: 39px;
+    }
+    
+    .radio-label {
+        position: relative;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px; 
+    }
+    
+    .registration__radio {
+        padding-top: 11px;
+        margin-bottom: 35px;
+    }
+    .radio-input:checked+.radio-label:after {
+        background: #000;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/600px-Light_green_check.svg.png);
+        background-size: 10px 10px;
+    }
+    
+    
+    .registration__list {
+        margin-left: 128px;
+        list-style: none;
+        font-family: $font-lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    
+    
+    .fix__list-text {
+        padding-bottom: 20px;
+    }
+    
+    
+    .registration__item {
+        position: relative;
+        padding-left: 43px;
+    }
+    
+    .registration__item:before {
+        content: '';
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(https://www.adonit.net/assets/images/support/checkmark-ecc71668.png);
+        background-size: 20px 20px;
+    }
+}
+

@@ -1,0 +1,117 @@
+.product {
+    width: 1140px;
+
+    .product__heading {
+        color: $black;
+        font-family: $font-lato;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 67px;
+        margin-bottom: 6px;
+        margin-left: 710px;
+    }
+    
+    .product__text {
+        color: $light-grey;
+        font-family: $font-lato;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        margin-left: 631px;
+    }
+    
+    .product__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 1140px;
+        margin-left: 230px;
+        margin-right: 230px;
+        margin-top: 48px;
+    
+    }
+    
+    .product__item {
+        width: 360px;
+        position: relative;
+    
+    }
+    
+    .product__item-overlay {
+        width: 100%;
+        min-height: 150px;
+        height: 420px;
+        background: rgba(58, 56, 56, 0.86);
+        position: absolute;
+        top: 0;
+        display: none;
+    }
+    
+    .product__item-button {
+        position: absolute;
+        width: 138px;
+        height: 43px;
+        top: 188px;
+        left: 111px;
+        background: rgba(0, 0, 0, 0);
+        border-color: $white;
+        color: $milk;
+        display: none;
+    }
+    
+    .product__item:hover .product__item-button,
+    .product__item:hover .product__item-overlay {
+        display: block;
+    }
+    
+    .product__item-title {
+        font-family: $font-lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: $grey-black;
+        padding: 35px 194px 13px 18px
+    }
+    
+    .product__item-text {
+        font-family: $font-lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: $grey;
+        padding: 0 29px 18px 18px
+    }
+    
+    
+    .product__item-desc {
+        font-family: $font-lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: $pink;
+        padding: 0 289px 20px 18px
+    }
+    
+    .product__button {
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 63px;
+        margin-left: 695px;
+        border: 1px solid;
+        text-align: center;
+        width: 211px;
+        padding: 14px 0 13px 0;
+    }
+    
+    .button--transperent:hover {
+        background-color: $new-pink;
+        color: $milk;
+    }
+}
+

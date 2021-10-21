@@ -1,0 +1,16 @@
+.copyright {
+    height: 79px;
+    background-color: $blacked;
+    display: flex;
+
+    .copyright__copy {
+        font-size: 16px;
+        line-height: 19px;
+        color: $milk;
+        margin: 23px 0 0 235px;
+    }
+    
+    .copyright__link {
+        margin: 23px 0 0 655px;
+    }
+}
