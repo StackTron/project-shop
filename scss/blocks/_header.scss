@@ -5,10 +5,11 @@
     .header__menu {
         position: relative;
     }
+
     
     .header__menu-overlay {
         position: absolute;
-        width: 1602px;
+        width: 1600px;
         height: 840px;
         background: rgba(0, 0, 0, 0.5);
         display: none;
@@ -78,4 +79,31 @@
     .menu-item__sub-list {
         padding-top: 12px;
     }
+}
+
+
+@media (max-width: 767px) {
+    .header {
+        .header__link {
+            display: none;
+        }
+        .header__menu {
+            right: 16px; 
+            }
+    }
+    .header__wrp-controls {
+            left: 16px;
+        }
+}
+
+@media (max-width: 1599px) {
+    .header__wrp-controls {
+        padding-left: 32px;
+        }
+        .header__menu {
+        padding-right: 32px; 
+        }
+        .show__overlay {
+            display: none;
+        }
 }

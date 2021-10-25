@@ -1,2 +1,18 @@
 {
+        "LiveSassCompile.settings.formats": [ 
+
+            {
+                "format": "expanded",
+                "extenionName": ".css",
+                "savePath": "~/css/"
+            }
+        ],
+    "LiveSassCompile.settings.excludeList": [
+
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true
+
 }

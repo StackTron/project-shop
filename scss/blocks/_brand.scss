@@ -13,9 +13,10 @@
     .brand__wrp {
         background-color: $light-pink;
         flex-grow: 1;
-        padding: 0 0 0 92px;
+        left: 92px;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
     
     .brand__title {
@@ -47,3 +48,22 @@
     }
 }
 
+@media (max-width:1599px) {
+    .brand {
+        width: 769px;
+    }
+    .brand__img {
+        width: 384px;
+        height: 369px;
+    }
+}
+@media (max-width:767px) {
+    .brand__img {
+        display: none;
+    }
+    .brand__wrp {
+        max-width: 375px;
+      
+    }
+}
+    

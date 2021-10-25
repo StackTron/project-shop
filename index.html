@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scss/style.css">
 </head>
-<body class="page">
-    <header class="header">
+<body class="page container">
+    <header class="header container">
         <div class="header__menu-overlay show__overlay" id="wrp"></div>
-        <div class="container header__wrp">
+        <div class=" header__wrp container">
                 <div class="header__wrp-controls">
                     <img class="header__logo" src="./img/logo-link.svg" alt="logo">
                     <img class="header__search" src="./img/loupe.svg" alt="loupe">     
@@ -78,24 +78,32 @@
                 <ul class="sales__list">
                     <div class="header__sales-item">
                         <li class="sales__item">
-                            <img src="./img/girl.png" alt="girl">
-                                <p class="sales__text">30% off</p>
+                            <img class="sales__item-pic" src="./img/girl.png" alt="girl">
+                                <div class="sales__text-block">
+                                    <p class="sales__text">30% off</p><br>
                                     <h3 class="sales__item-title">for women</h3>
+                                </div>
                         </li>
                             <li class="sales__item">
-                            <img src="./img/man-sale.png" alt="man-sale">
-                            <p class="sales__text">hot deal</p>
-                            <h3 class="sales__item-title">for men</h3>
+                            <img class="sales__item-pic" src="./img/man-sale.png" alt="man-sale">
+                            <div class="sales__text-block">
+                                <p class="sales__text">hot deal</p><br>
+                                <h3 class="sales__item-title">for men</h3>
+                            </div>
                         </li>
                             <li class="sales__item">
-                                <img src="./img/kid.png" alt="">
-                                <p class="sales__text">new arrivals</p>
-                                <h3 class="sales__item-title">for kids</h3> 
+                                <img class="sales__item-pic" src="./img/kid.png" alt="">
+                                <div class="sales__text-block">
+                                    <p class="sales__text">new arrivals</p><br>
+                                    <h3 class="sales__item-title">for kids</h3> 
+                                </div>
                             </li>
                                 <li class="sales__item">
-                                    <img src="./img/accesories.png" alt="accesories">
-                                    <p class="sales__text-pic">luxirous & trendy</p>
-                                    <h3 class="sales__item-title-pic">accesories</h3> 
+                                    <img class="sales__item pic-pic" src="./img/accesories.png" alt="accesories">
+                                    <div class="sales__text-block">
+                                        <p class="sales__text text-pic">luxirous & trendy</p><br>
+                                        <h3 class="sales__item-title title-pic">accesories</h3> 
+                                    </div>
                                 </li>
                     </div>
                 </ul>
@@ -189,7 +197,7 @@
                 </ul>
             </section>
 </main>
-            <footer class="footer">
+            <footer class="footer container">
                 <section class="cart"> 
                     <ul class="cart__list"> 
                         <div class="cart__overlay"></div>
